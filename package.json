@@ -1,0 +1,27 @@
+{
+  "name": "spendwise",
+  "version": "1.0.0",
+  "description": "Offline spending tracker",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.278.0",
+    "papaparse": "^5.4.1",
+    "xlsx": "^0.18.5",
+    "pdfjs-dist": "^3.8.162",
+    "chart.js": "^4.4.1"
+  },
+  "devDependencies": {
+    "vite": "^5.1.0",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.35",
+    "autoprefixer": "^10.4.17",
+    "@vitejs/plugin-react": "^4.2.0"
+  }
+}
